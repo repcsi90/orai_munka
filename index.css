@@ -1,0 +1,10 @@
+table{
+    width: 600px;
+    border-collapse: collapse;
+/*  border collapse: separate*/
+}
+tr, td{
+    border:  1px black;
+}
+
+tr:nth-child(odd) {background: #ccc;}
